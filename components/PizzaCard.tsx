@@ -23,7 +23,7 @@ export default function PizzaCard({ pizzaCard}: {pizzaCard: Pizza}) {
                     </div>
                     
                     <button className="bg-amber-600 active:scale-95 w-10 h-10 flex items-center justify-center text-zinc-950 rounded-full transition-colors shadow-lg ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                     </button>
                 </div>
             </div>
