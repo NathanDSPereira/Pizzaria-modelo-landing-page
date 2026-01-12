@@ -27,7 +27,7 @@ export default function FeedbackCard({feedback}: {feedback: Feedback}) {
                         height={30}
                         className="rounded-full object-cover w-10 h-10 p-0.5"
                     />
-                    <h4 className="font-bold">{feedback.nome}</h4>
+                    <h4 className="font-bold text-slate-300">{feedback.nome}</h4>
                 </div>
             </div>
         </section>

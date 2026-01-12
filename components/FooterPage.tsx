@@ -2,7 +2,7 @@ import { CalendarDays, Instagram, Mail, MessageCircle, Phone, Star, Timer } from
 
 export default function Footer() {
     return (
-      <footer className="bg-zinc-950 border-t border-zinc-900 py-12 px-4 space-y-8 mb-5">
+      <footer className="bg-zinc-950 border-t border-zinc-900 py-12 px-4 space-y-8 mb-5 max-w-7xl mx-auto">
         <div className="flex flex-col justify-center items-center gap-2 border-t border-zinc-700 pt-6">
           <h4 className="text-2xl font-serif font-bold text-slate-200 leading-none">
           La Nostra Pizza
@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <ul className="flex flex-col justify-center items-start text-slate-200 gap-5 border-t-zinc-700 border-t mt-8 pt-8 md:flex-row md:justify-around px-1">
+        <ul className="flex flex-col justify-center items-start mx-auto text-slate-200 gap-5 border-t-zinc-700 border-t mt-8 pt-8 md:flex-row md:justify-around px-1">
           <li className="flex justify-center items-center gap-2">
               <Timer 
                 size={30} 
@@ -56,7 +56,7 @@ export default function Footer() {
 
           <ul className="flex flex-wrap gap-4 justify-center items-center">
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center bg-zinc-900/50 border border-amber-500 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-amber-500 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <MessageCircle
                     size={16}
                     className="inline-block mr-2 mb-1"
@@ -66,7 +66,7 @@ export default function Footer() {
               </button>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Instagram
                     size={16}
                     className="inline-block mr-2 mb-1"
@@ -76,7 +76,7 @@ export default function Footer() {
               </button>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Mail
                     size={16}
                     className="inline-block mr-2 mb-1"
@@ -86,7 +86,7 @@ export default function Footer() {
               </button>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Phone
                     size={16}
                     className="inline-block mr-2 mb-1"
@@ -101,7 +101,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-zinc-900/50 flex flex-col items-center gap-4 text-center">
           <div className="space-y-1">
             <p className="text-zinc-500 text-[10px] uppercase tracking-[0.2em]">
-              © 2024 La Nostra Pizza - Todos os direitos reservados
+              © 2026 La Nostra Pizza - Todos os direitos reservados
             </p>
             <p className="text-zinc-600 text-[9px] tracking-widest">
               CNPJ: 00.000.000/0001-00

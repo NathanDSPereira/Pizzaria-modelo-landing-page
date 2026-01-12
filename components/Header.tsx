@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="relative h-80 w-full overflow-hidden">
+    <header className="relative h-80 w-full overflow-hidden md:h-96 lg:h-125">
       <div className="absolute inset-0">
         <Image 
           src="/images/pizza-tela-inicial.jpg" 
