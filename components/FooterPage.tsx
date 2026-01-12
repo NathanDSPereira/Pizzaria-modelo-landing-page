@@ -1,30 +1,117 @@
+import { CalendarDays, Instagram, Mail, MessageCircle, Phone, Star, Timer } from "lucide-react";
+
 export default function Footer() {
     return (
-        <footer className="bg-zinc-950 border-t border-zinc-900 px-4 pt-12 pb-32 text-zinc-400">
-  <div className="mx-auto max-w-lg space-y-10">
-    
-    <div className="flex flex-col items-center gap-6 text-center">
-      <a href="#" className="flex items-center gap-2 text-white font-bold hover:text-orange-500 transition-colors">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.51"/></svg>
-        Siga-nos no Instagram
-      </a>
-      
-      <div className="space-y-1">
-        <p className="text-sm">Dúvidas ou suporte?</p>
-        <p className="text-white font-medium">(34) 99999-9999</p>
-      </div>
-    </div>
+      <footer className="bg-zinc-950 border-t border-zinc-900 py-12 px-4 space-y-8 mb-5">
+        <div className="flex flex-col justify-center items-center gap-2 border-t border-zinc-700 pt-6">
+          <h4 className="text-2xl font-serif font-bold text-slate-200 leading-none">
+          La Nostra Pizza
+          </h4>
+          <p className="text-center text-zinc-500 font-medium text-sm mt-2">
+            A verdadeira experiência da pizza artesanal, com ingredientes selecionados e massa de longa fermentação.
+          </p>
+        </div>
 
-    <div className="h-px w-full bg-zinc-900"></div>
+        <ul className="flex flex-col justify-center items-start text-slate-200 gap-5 border-t-zinc-700 border-t mt-8 pt-8 md:flex-row md:justify-around px-1">
+          <li className="flex justify-center items-center gap-2">
+              <Timer 
+                size={30} 
+                className="text-amber-500 inline-block"
+                strokeWidth={1.5}
+              />
+              <div className="flex flex-col">
+                <p className="text-zinc-500 text-sm">Tempo de Entrega</p>
+                <p className="text-zinc-200 text-base">20-30 min</p>
+              </div>
+          </li>
+          <li className="flex justify-center items-center gap-2">
+            <Star
+              size={25} 
+              className="text-amber-500 fill-amber-300  inline-block"
+              strokeWidth={1.5}
+            />
+            <div className="flex flex-col">
+              <p className="text-zinc-500 text-sm">Avaliações</p>
+              <p className="text-zinc-200 text-base">4.8 <span className="text-zinc-500 text-sm">(464)</span></p>
+            </div>
+          </li>
+          <li className="flex justify-center items-center gap-2">
+            <CalendarDays 
+              size={25} 
+              className="text-amber-500 inline-block "
+              strokeWidth={1.5}
+            />
+            <div className="flex flex-col">
+              <p className="text-zinc-500 text-sm">Horário de Funcionamento</p>
+              <p className="text-zinc-200 text-base">Segunda a Sexta: 18h às 23h</p>
+              <p className="text-zinc-500 text-xs">Atendendo Estados Unidos/Uberaba e região</p>
+            </div>
+          </li>
+        </ul>
 
-    <div className="flex flex-col items-center gap-4 text-xs text-center">
-      <p>© 2026 Duperon Pizzaria - Todos os direitos reservados.</p>
-      <p className="uppercase tracking-widest text-zinc-600">
-        Desenvolvido por <span className="text-zinc-400">Nathan Pereira</span>
-      </p>
-    </div>
+        <div>
+          <div className="border-t border-zinc-800 text-base font-sans text-center font-medium text-slate-200 leading-none mt-10 pt-8 mb-10">
+            <h4>Entre em contato conosco!</h4>
+          </div>
 
-  </div>
-</footer>
+          <ul className="flex flex-wrap gap-4 justify-center items-center">
+            <li className="flex justify-center items-center">
+              <button className="flex justify-center items-center bg-zinc-900/50 border border-amber-500 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+                  <MessageCircle
+                    size={16}
+                    className="inline-block mr-2 mb-1"
+                    strokeWidth={1.5}
+                  />
+                    WhatsApp
+              </button>
+            </li>
+            <li className="flex justify-center items-center">
+              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+                  <Instagram
+                    size={16}
+                    className="inline-block mr-2 mb-1"
+                    strokeWidth={1.5}
+                  />
+                    Instagram
+              </button>
+            </li>
+            <li className="flex justify-center items-center">
+              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+                  <Mail
+                    size={16}
+                    className="inline-block mr-2 mb-1"
+                    strokeWidth={1.5}
+                  />
+                    Email
+              </button>
+            </li>
+            <li className="flex justify-center items-center">
+              <button className="flex justify-center items-center bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+                  <Phone
+                    size={16}
+                    className="inline-block mr-2 mb-1"
+                    strokeWidth={1.5}
+                  />
+                    Telefone
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-zinc-900/50 flex flex-col items-center gap-4 text-center">
+          <div className="space-y-1">
+            <p className="text-zinc-500 text-[10px] uppercase tracking-[0.2em]">
+              © 2024 La Nostra Pizza - Todos os direitos reservados
+            </p>
+            <p className="text-zinc-600 text-[9px] tracking-widest">
+              CNPJ: 00.000.000/0001-00
+            </p>
+          </div>
+
+          <p className="text-zinc-500 text-[10px] tracking-wide">
+            Desenvolvido por <span className="text-zinc-300 font-medium hover:text-amber-500 transition-colors cursor-pointer">Nathan Pereira</span>
+          </p>
+        </div>
+      </footer>
     )
 }

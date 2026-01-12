@@ -1,6 +1,6 @@
 export default function Map() {
     return (
-        <section className="flex flex-col justify-center items-center mb-100">
+        <section className="flex flex-col justify-center items-center mb-2">
             <div className="text-center mb-6 mt-10">
                 <h4 className="text-slate-200 font-bold text-xl font-serif tracking-wide">Onde estamos</h4>
                 <p className="text-zinc-400">venha nos visitar na Unidade Estados Unidos</p>
