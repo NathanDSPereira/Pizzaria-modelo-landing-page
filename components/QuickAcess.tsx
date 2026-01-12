@@ -1,6 +1,27 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function QuickAcess() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 400) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     return (
         <section className="bg-zinc-950 py-8 px-4 space-y-6">
             <div className="text-slate-200 flex justify-center items-center text-center">
@@ -27,6 +48,12 @@ export default function QuickAcess() {
                         WhatsApp
                     </button>
                 </div>
+            </div>
+
+            <div className={`fixed bottom-6 left-0 right-0 z-50 px-4 transition-all duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
+                <button className="w-full bg-amber-600 text-zinc-950 font-bold py-4 rounded-2xl shadow-lg active:scale-95 transition-all">
+                🍕 FAZER PEDIDO AGORA
+                </button>
             </div>
         </section>
     );

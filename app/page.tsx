@@ -2,6 +2,8 @@ import Header from '@/components/Header';
 import ListPizza from '@/components/ListPizza';
 import QuickAcess from '@/components/QuickAcess';
 import ListFeedbacks from '@/components/ListFeedbacks';
+import Map from '@/components/Map';
+import FooterPage from '@/components/FooterPage';
 
 import BdPizzas from '@/bancoDeDados/BdPizzas.json';
 import BdFeedbacks from '@/bancoDeDados/BdFeedbacks.json';
@@ -17,6 +19,8 @@ export default function Home() {
       <QuickAcess />
       <ListPizza listaPizzas={listaPizzas} />
       <ListFeedbacks listaFeedbacks={listaDeFeedbacks} />
+      <Map />
+      <FooterPage />
     </main>
   );
 }
