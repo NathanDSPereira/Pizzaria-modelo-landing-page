@@ -13,10 +13,10 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'PizzaRestaurant',
-    'name': 'La Nostra Pizza',
+    'name': 'Duperon Pizzaria',
     'address': {
       '@type': 'PostalAddress',
-      'streetAddress': 'Estados Unidos, 406',
+      'streetAddress': 'Bairro Abadia, 406',
       'addressLocality': 'Uberaba',
       'addressRegion': 'MG',
       'postalCode': '38025-170',

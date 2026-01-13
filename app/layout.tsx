@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pizzaria Duperon | Uberaba',
     description: 'Experiência premium da pizza artesanal direto na sua mesa.',
-    url: 'https://lanostrapizza-uberaba.com', // Substitua pelo seu link
+    url: 'https://pizzaria-modelo-landing-page.vercel.app/', // Substitua pelo seu link
     siteName: 'Pizzaria Duperon',
     images: [
       {
