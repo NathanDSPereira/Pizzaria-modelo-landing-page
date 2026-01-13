@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
- title: 'La Nostra Pizza | Pizzaria Artesanal em Uberaba',
+ title: 'Pizzaria Duperon | Pizzaria Artesanal em Uberaba',
   description: 'A melhor pizza de longa fermentação em Uberaba. Ingredientes selecionados, entrega rápida em 20-30 min e sabor inesquecível. Peça agora!',
   keywords: ['pizzaria uberaba', 'delivery pizza uberaba', 'pizza artesanal', 'melhor pizza de uberaba'],
   openGraph: {
-    title: 'La Nostra Pizza | Uberaba',
+    title: 'Pizzaria Duperon | Uberaba',
     description: 'Experiência premium da pizza artesanal direto na sua mesa.',
     url: 'https://lanostrapizza-uberaba.com', // Substitua pelo seu link
-    siteName: 'La Nostra Pizza',
+    siteName: 'Pizzaria Duperon',
     images: [
       {
         url: '/og-image.jpg', // Crie uma imagem bonita de 1200x630px para o link
