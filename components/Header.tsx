@@ -6,10 +6,11 @@ export default function Header() {
       <div className="absolute inset-0">
         <Image 
           src="/images/pizza-tela-inicial.jpg" 
-          alt="Pizzaria Duperon imagem"
+          alt="Pizza Artesanal da Pizzaria Duperon"
           fill
           className="object-cover brightness-50"
           priority
+          sizes='100vw'
         />
         <div className="absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-black/20" />
       </div>
