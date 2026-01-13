@@ -56,44 +56,52 @@ export default function Footer() {
 
           <ul className="flex flex-wrap gap-4 justify-center items-center">
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-amber-500 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <a href="https://wa.me/5534997298335?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener noreferrer" className="flex justify-center items-center  w-32 h-16">
+                <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-amber-500 text-zinc-300 w-full h-full rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <MessageCircle
                     size={16}
                     className="inline-block mr-2 mb-1"
                     strokeWidth={1.5}
                   />
-                    WhatsApp
-              </button>
+                  WhatsApp
+                </button>
+              </a>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <a className="flex justify-center items-center w-32 h-16" href="https://instagram.com/duperonpizzaria" target="_blank" rel="noopener noreferrer">
+                <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-full h-full rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Instagram
-                    size={16}
-                    className="inline-block mr-2 mb-1"
-                    strokeWidth={1.5}
-                  />
-                    Instagram
-              </button>
+                      size={16}
+                      className="inline-block mr-2 mb-1"
+                      strokeWidth={1.5}
+                    />
+                  Instagram
+                </button>
+              </a>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <a href="mailto:nathan.pereira@unimeduberaba.com.br" className="flex justify-center items-center w-32 h-16" target="_blank">
+                <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-full h-full rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Mail
-                    size={16}
-                    className="inline-block mr-2 mb-1"
-                    strokeWidth={1.5}
-                  />
-                    Email
-              </button>
+                      size={16}
+                      className="inline-block mr-2 mb-1"
+                      strokeWidth={1.5}
+                    />
+                  Email
+                </button>
+              </a>
             </li>
             <li className="flex justify-center items-center">
-              <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-32 h-16 rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
+              <a href="tel:+5534997298335" className="flex justify-center items-center w-32 h-16">
+                <button className="flex justify-center items-center cursor-pointer hover:border-amber-500 bg-zinc-900/50 border border-zinc-700 text-zinc-300 w-full h-full rounded-2xl text-sm font-bold active:scale-95 transition-all active:border-amber-500">
                   <Phone
                     size={16}
                     className="inline-block mr-2 mb-1"
                     strokeWidth={1.5}
                   />
-                    Telefone
-              </button>
+                  Telefone
+                </button>
+              </a>
             </li>
           </ul>
         </div>
