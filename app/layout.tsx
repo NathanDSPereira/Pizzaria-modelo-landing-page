@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
- title: 'Pizzaria Duperon | Pizzaria Artesanal em Uberaba',
+  metadataBase: new URL('https://pizzaria-modelo-landing-page.vercel.app/'),
+  title: 'Pizzaria Duperon | Pizzaria Artesanal em Uberaba',
   description: 'A melhor pizza de longa fermentação em Uberaba. Ingredientes selecionados, entrega rápida em 20-30 min e sabor inesquecível. Peça agora!',
   keywords: ['pizzaria uberaba', 'delivery pizza uberaba', 'pizza artesanal', 'melhor pizza de uberaba'],
   openGraph: {

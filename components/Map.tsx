@@ -19,7 +19,7 @@ export default function Map() {
                 <div className="flex flex-col gap-3 pb-5">
                     <div className="flex items-start justify-center gap-4 px-4 py-2">
                         <div className="rounded-full bg-orange-500/10 p-2 text-orange-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                         </div>
                         <div className="flex flex-col gap-1">
                             <p className="text-slate-200 font-semibold">Unidade Abadia</p>
@@ -31,7 +31,7 @@ export default function Map() {
                     <a className="py-3 mx-4 mt-1 w-[256px] h-18.5 flex justify-center items-center" href="https://www.google.com/maps/dir/?api=1&destination=Pizzaria+Duperon+Uberaba+MG" target="_blank" rel="noopener noreferrer">
                         <button className="bg-zinc-700/50 border hover:cursor-pointer w-full h-full hover:border-amber-500 border-zinc-800 text-zinc-300 rounded-xl text-md font-semibold active:scale-95 transition-all active:border-amber-500 flex items-center justify-center gap-2">
                             Como chegar
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </button>
                     </a>
                 </div>
