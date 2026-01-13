@@ -5,7 +5,7 @@ export default function Header() {
     <header className="relative h-80 w-full overflow-hidden md:h-96 lg:h-125">
       <div className="absolute inset-0">
         <Image 
-          src="/images/pizza-tela-inicial.jpg" 
+          src="/images/pizza-tela-inicial.webp" 
           alt="Pizza Artesanal da Pizzaria Duperon"
           fill
           className="object-cover brightness-50"
