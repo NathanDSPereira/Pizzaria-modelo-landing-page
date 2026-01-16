@@ -4,7 +4,7 @@
     "nome": "Margherita",
     "descricao": "Molho de tomate, mussarela, manjericão fresco e azeite de oliva.",
     "preco": 29.90,
-    "imagem": "/images/margherita.jpg",
+    "imagem": "/images/margherita.webp",
     "tamanho": "Média",
     "fatias": 8
   },
@@ -13,7 +13,7 @@
     "nome": "Pepperoni",
     "descricao": "Molho de tomate, mussarela e fatias generosas de pepperoni.",
     "preco": 34.90,
-    "imagem": "/images/pepperoni.jpg",
+    "imagem": "/images/pepperoni.webp",
     "tamanho": "Grande",
     "fatias": 10
   },
@@ -22,7 +22,7 @@
     "nome": "Quatro Queijos",
     "descricao": "Mussarela, gorgonzola, parmesão e provolone com molho branco.",
     "preco": 39.90,
-    "imagem": "/images/quatro-queijos.jpg",
+    "imagem": "/images/quatro-queijos.webp",
     "tamanho": "Grande",
     "fatias": 10
   }
