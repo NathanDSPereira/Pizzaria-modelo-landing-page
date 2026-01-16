@@ -9,7 +9,8 @@ export default function PizzaCard({ pizzaCard}: {pizzaCard: Pizza}) {
                     src={pizzaCard.imagem} 
                     alt={pizzaCard.nome} 
                     width={200} 
-                    height={200} 
+                    height={200}
+                    quality={75}
                     className="rounded-tr-lg rounded-tl-lg w-full h-full object-cover"
                 />
             </div>
