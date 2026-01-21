@@ -3,7 +3,7 @@ export default function Map() {
         <section className="flex flex-col justify-center items-center mb-2">
             <div className="text-center mb-6 mt-10">
                 <h4 className="text-slate-200 font-bold text-xl font-serif tracking-wide">Onde estamos</h4>
-                <p className="text-zinc-400">venha nos visitar na Unidade Abadia</p>
+                <p className="text-zinc-400">venha nos visitar na Unidade Estados Unidos</p>
             </div>
 
             <div className="w-72  bg-zinc-900/90 backdrop-blur-sm rounded-xl flex flex-col gap-4 shadow-lg">
@@ -22,13 +22,13 @@ export default function Map() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                         </div>
                         <div className="flex flex-col gap-1">
-                            <p className="text-slate-200 font-semibold">Unidade Abadia</p>
-                            <p className="text-zinc-400 font-medium text-sm">Bairro Abadia, 406</p>
-                            <p className="text-zinc-400 font-medium text-sm">Uberaba - MG, 38025-170</p>
+                            <p className="text-slate-200 font-semibold">Unidade Estados Unidos</p>
+                            <p className="text-zinc-400 font-medium text-sm">Bairro Estados Unidos, 406</p>
+                            <p className="text-zinc-400 font-medium text-sm">Uberaba - MG, 38025-189</p>
                         </div>
                     </div>
 
-                    <a className="py-3 mx-4 mt-1 w-[256px] h-18.5 flex justify-center items-center" href="https://www.google.com/maps/dir/?api=1&destination=Pizzaria+Duperon+Uberaba+MG" target="_blank" rel="noopener noreferrer">
+                    <a className="py-3 mx-4 mt-1 w-[256px] h-18.5 flex justify-center items-center" href="https://www.google.com/maps/dir/?api=1&destination=Pizzaria+da+Villa+Uberaba+MG" target="_blank" rel="noopener noreferrer">
                         <button className="bg-zinc-700/50 border hover:cursor-pointer w-full h-full hover:border-amber-500 border-zinc-800 text-zinc-300 rounded-xl text-md font-semibold active:scale-95 transition-all active:border-amber-500 flex items-center justify-center gap-2">
                             Como chegar
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>

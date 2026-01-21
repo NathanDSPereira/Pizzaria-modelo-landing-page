@@ -6,7 +6,7 @@ export default function Header() {
       <div className="absolute inset-0">
         <Image 
           src="/images/pizza-tela-inicial.webp" 
-          alt="Pizza Artesanal da Pizzaria Duperon"
+          alt="Pizza Artesanal da La Nostra Pizza"
           fill
           className="object-cover brightness-50"
           priority
@@ -28,10 +28,10 @@ export default function Header() {
         </div>
 
         <h1 className="text-4xl font-serif font-bold text-slate-200 leading-none">
-          Duperon Pizzaria
+          La Nostra Pizza
         </h1>
         <p className="text-zinc-300 font-medium text-sm mt-2">
-          Pizzaria Artesanal • Unidade Abadia
+          Pizzaria Artesanal • Unidade Estados Unidos
         </p>
 
         <div className="flex gap-4 mt-4">
