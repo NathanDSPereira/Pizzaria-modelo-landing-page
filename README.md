@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🍕 Pizzaria Modelo - Landing Page & Cardápio Digital
+Uma solução de alta performance para pizzarias que buscam uma presença online elegante, moderna e extremamente rápida. Desenvolvida com Next.js, esta landing page foi otimizada para oferecer a melhor experiência de usuário, garantindo tempos de carregamento mínimos e um design responsivo.
 
-## Getting Started
+<br>
+<br>
+⚡ Performance Garantida: Projeto desenvolvido com foco em métricas de Core Web Vitals e aprovação no PageSpeed Insights.
+<br>
+<br>
+💎 Diferenciais do Projeto
+Renderização Híbrida (Next.js): Utilização de SSR (Server-Side Rendering) ou SSG (Static Site Generation) para carregamento instantâneo.
 
-First, run the development server:
+Design Premium: Interface "chique" e minimalista, focada em converter visitantes em clientes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cardápio Online: Exibição clara e atraente dos produtos, otimizada para dispositivos móveis.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Foco em SEO: Estrutura de tags e metadados preparada para mecanismos de busca (Google).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Otimização de Imagens: Uso do componente next/image para entrega de fotos em formatos modernos e leves.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br>
+<br>
+🚀 Tecnologias e Ferramentas
+Framework: Next.js
 
-## Learn More
+Linguagem: TypeScript / JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+Estilização: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Performance: PageSpeed Insights
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployment: Vercel : [https://pizzaria-modelo-landing-page.vercel.app/]
 
-## Deploy on Vercel
+<br>
+<br>
+🛠️ Funcionalidades
+Navegação Fluida: Experiência sem recarregamento de página.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+CTA (Call to Action): Botões estratégicos para pedidos via WhatsApp ou Telefone.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Responsividade Total: Adaptado para smartphones, tablets e desktops.
