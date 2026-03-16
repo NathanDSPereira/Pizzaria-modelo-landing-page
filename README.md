@@ -1,9 +1,12 @@
 🍕 Pizzaria Modelo - Landing Page & Cardápio Digital
+<br>
+<br>
 Uma solução de alta performance para pizzarias que buscam uma presença online elegante, moderna e extremamente rápida. Desenvolvida com Next.js, esta landing page foi otimizada para oferecer a melhor experiência de usuário, garantindo tempos de carregamento mínimos e um design responsivo.
 
 <br>
 <br>
 ⚡ Performance Garantida: Projeto desenvolvido com foco em métricas de Core Web Vitals e aprovação no PageSpeed Insights.
+<br>
 <br>
 <br>
 💎 Diferenciais do Projeto
