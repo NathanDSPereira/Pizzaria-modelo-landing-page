@@ -27,6 +27,8 @@ Otimização de Imagens: Uso do componente next/image para entrega de fotos em f
 
 <br>
 <br>
+<br>
+<br>
 🚀 Tecnologias e Ferramentas
 Framework: Next.js
 
