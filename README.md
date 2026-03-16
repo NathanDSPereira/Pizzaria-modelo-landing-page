@@ -10,7 +10,7 @@ Uma solução de alta performance para pizzarias que buscam uma presença online
 <br>
 <br>
 💎 Diferenciais do Projeto
-Renderização Híbrida (Next.js): 
+Renderização Híbrida (Next.js):<br>
 Utilização de SSR (Server-Side Rendering) ou SSG (Static Site Generation) para carregamento instantâneo.
 
 Design Premium: Interface "chique" e minimalista, focada em converter visitantes em clientes.
