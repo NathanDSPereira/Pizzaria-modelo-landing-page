@@ -13,6 +13,7 @@ Uma solução de alta performance para pizzarias que buscam uma presença online
 Renderização Híbrida (Next.js):<br>
 Utilização de SSR (Server-Side Rendering) ou SSG (Static Site Generation) para carregamento instantâneo.
 <br>
+<br>
 Design Premium: Interface "chique" e minimalista, focada em converter visitantes em clientes.
 
 Cardápio Online: Exibição clara e atraente dos produtos, otimizada para dispositivos móveis.
